@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600;700;800;900&family=Tektur&display=swap");
+
+html {
+  font-family: "poppins";
+}
+body {
+  background-color: black;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  font-family: "poppins";
+  color: #8e3d4c;
+  background-color: #fea646;
+  border: 2px solid;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: transform 0.25s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: transform 0.25s;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 0 #eea556, -2px -2px 0 #eea556, 2px -2px 0 #eea556,
+    -2px 2px 0 #eea556;
+}
+
+p {
+  text-align: center;
+  background-color: #fff9;
+  padding: 15px;
+  color: black;
+  border-radius: 10px;
+}
+
+.app {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.conteiner {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 95vh;
+}
+
+.phraseAutor {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
